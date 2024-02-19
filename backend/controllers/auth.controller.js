@@ -7,12 +7,12 @@ export const signup = (req, res) => {
 }
 
 export const login = (req, res) => {
-    res.send("Login User")
+    res.send("Login User");
     console.log("loginUser");
 }
 
 export const logout = (req, res) => {
-    res.send("Logout User")
+    res.send("Logout User");
     console.log("logoutUser");
 }
 
